@@ -10,6 +10,7 @@ from typing import List, Dict, Any
 import comet_ml
 from comet_ml import Experiment 
 experiment = Experiment("Hy93O9e9gbVQ0eN1w0lGc2vAA")
+#comet
 
 
 comet_ml.login(project_name="vit_model_train")
